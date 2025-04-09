@@ -25,7 +25,9 @@ services:
       - key: DB_POSTGRESDB_DATABASE
         value: postgres
       - key: DB_POSTGRESDB_HOST
-        value: aws-0-us-east-2.pooler.supabase.com:5432
+        value: aws-0-us-east-2.pooler.supabase.com
+      - key: DB_POSTGRESDB_PORT
+        value: "5432"
       - key: DB_POSTGRESDB_PASSWORD
         value: 311Nore
       - key: DB_POSTGRESDB_USER
